@@ -1,0 +1,103 @@
+/* public/styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://images.unsplash.com/photo-1707380657697-f58301c9682c?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed; /* Example background */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    padding: 20px;
+    width: 90%; /* Adjust the width */
+    max-width: 600px; /* Maximum width for larger screens */
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff0000; /* YouTube red color */
+}
+
+input {
+    width: 96%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #ff0000; /* YouTube red */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #e60000; /* Darker red on hover */
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column; /* Stack thumbnails vertically */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-direction: column; /* Arrange images and labels vertically */
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+    background: #f1f1f1; /* Light background for thumbnails */
+}
+
+.thumbnail-container img {
+    width: 150px; /* Fixed thumbnail size */
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.thumbnail-container span {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #666; /* Darker label color */
+}
+
+/* Media Query for Responsive Design */
+@media (min-width: 600px) {
+    .thumbnails {
+        flex-direction: row; /* Change to row for larger screens */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .thumbnail-container {
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+        width: 150px; /* Fixed width for each thumbnail container */
+    }
+}
