@@ -1,4 +1,3 @@
-# youtube-thumbnail-downloader
 
 # YouTube Thumbnail Downloader
 
@@ -26,7 +25,7 @@ A simple web application to fetch and download YouTube video thumbnails in vario
 
 ## Demo
 
-Live demo: [YouTube Thumbnail Downloader](https://your-username.github.io/youtube-thumbnail-downloader)
+Live demo: [YouTube Thumbnail Downloader](https://ronakmunjapara.github.io/youtube-thumbnail-downloader)
 
 ## Installation
 
@@ -35,4 +34,4 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/youtube-thumbnail-downloader.git
+   git clone https://github.com/ronakmunjapara/youtube-thumbnail-downloader.git
