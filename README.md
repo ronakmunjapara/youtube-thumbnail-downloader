@@ -1,7 +1,9 @@
 
 # YouTube Thumbnail Downloader
 
-![YouTube Thumbnail Downloader](https://user-images.githubusercontent.com/your-username/your-repo-placeholder.png)
+
+![image](https://github.com/user-attachments/assets/7800a4e7-4411-4fc6-b4f8-7f6399d00cac)
+
 
 A simple web application to fetch and download YouTube video thumbnails in various resolutions. This project utilizes Node.js for the backend and vanilla JavaScript for the frontend, featuring a sleek UI with a glassmorphism effect.
 
